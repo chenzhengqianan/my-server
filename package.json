@@ -1,7 +1,7 @@
 {
   "name": "et-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "my-server",
   "private": true,
   "dependencies": {
     "egg": "^2.2.1",
