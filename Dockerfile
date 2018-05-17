@@ -10,5 +10,5 @@ RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
 RUN cnpm install
 
 EXPOSE 7001
-
-CMD npm start && tail -f /var/log/nginx/error.log
+RUN tail -f /var/log/yum.log
+CMD npm start 
