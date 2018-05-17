@@ -4,13 +4,10 @@ FROM docker.io/node
 RUN mkdir -p /home/Service
 WORKDIR /home/Service
 
-RUN pwd
-
 COPY . /home/Service
 
-RUN ls
-
-RUN npm install
+RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
+RUN cnpm install
 
 EXPOSE 7001
 
