@@ -1,9 +1,12 @@
 
 
 FROM docker.io/node
-# RUN mkdir -p /home
-# WORKDIR /app/my-server
-# COPY .
+RUN mkdir -p /home/Service
+WORKDIR /home/Service
+RUN ls
+RUN pwd
+
+COPY . /home/Service
 
 RUN npm install
 
