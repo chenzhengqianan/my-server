@@ -11,4 +11,4 @@ RUN cnpm install
 
 EXPOSE 7001
 
-CMD npm start
+CMD npm start && tail -f /var/log/nginx/error.log
