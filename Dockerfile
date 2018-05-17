@@ -3,7 +3,7 @@
 FROM docker.io/node
 # RUN mkdir -p /home
 # WORKDIR /app/my-server
-# COPY . /
+COPY ["/app/my-server" '/']
 
 RUN npm install
 
