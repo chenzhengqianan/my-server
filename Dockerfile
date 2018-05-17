@@ -1,6 +1,6 @@
 
 
-FROM docker.io/node
+FROM node:8.9.0
 RUN mkdir -p /home/Service
 WORKDIR /home/Service
 
