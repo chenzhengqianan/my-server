@@ -2,8 +2,8 @@
 
 FROM docker.io/node
 # RUN mkdir -p /home
-WORKDIR /app/my-server
-COPY . /
+# WORKDIR /app/my-server
+# COPY . /
 
 RUN npm install
 
